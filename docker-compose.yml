@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  jtrac:
+    image: jtrac
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - type: bind
+        source: ./data
+        target: /jtrac/data
+    ports:
+      - 8000:80
