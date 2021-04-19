@@ -4,7 +4,7 @@ JTrac is a really cool and useful opensource issue tracking system created by Pe
 The code here is simply intended to allow it to be run with Docker and/or Docker Compose.  To get going,
 
 ```
-git clone git@github.com:nonsequitir/jtrac-docker.git
+git clone https://github.com/nonsequitir/jtrac-docker.git
 docker-compose build
 docker-compose up -d
 ```
