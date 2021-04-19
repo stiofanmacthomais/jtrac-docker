@@ -11,3 +11,7 @@ docker-compose up -d
 
 Then, from a web brower, navigate to http://localhost:8000/jtrac.  The default username/password is admin/admin.  This container will create a presistent store in the data directory in your local docker folder.
 
+The documentation contains all the information you need to make development changes, or to change the backend database to something more scalable (if needed).
+
+Have fun!
+
